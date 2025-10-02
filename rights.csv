@@ -2,12 +2,12 @@ Company,Region,Contents,Parent Company,Timeline,Rights,League,30 sec Ad USD,Cont
 CBS,USA,"AFC Sunday Games, USA",Paramount Global,2023-2033,Broadcast,NFL,"$659,000",~$2.1 billion per year,In House,"New York, Ny; On-Site Stadiums",CBS Sports
 FOX,USA,"NFC Sunday Games, USA",FOX Corporation,2023-2034,Broadcast,NFL,"$689,000",~$2.25 billion per year,In House,"Los Angeles, Ca; On-Site Stadiums",FOX Sports
 NBC,USA,"Sunday Night Football, USA",NBCUniversal,2023-2035,Broadcast,NFL,"$882,000",~$2.0 billion per year,In House,"Stamford, Ct; On-Site Stadiums",NBC Sports
-ESPN / ABC,USA,"Monday Night Football, Select Games, USA",The Walt Disney Company,2023-2036,Broadcast,NFL,"$637,000",~$2.7 billion per year,In House,"Bristol, Ct; On-Site Stadiums",ESPN
+ESPN / ABC,USA,"Monday Night Football, Select Games, USA",Disney,2023-2036,Broadcast,NFL,"$637,000",~$2.7 billion per year,In House,"Bristol, Ct; On-Site Stadiums",ESPN
 NFL Network,USA,"Limited Games (E.G., London, Saturday)",NFL,2023-2037,Broadcast,NFL,"~$250,000$450,000",,In House,"Inglewood, Ca; Mount Laurel, Nj",NFL Media / NFL Films
 Amazon Prime Video,Global,"Thursday Night Football, Global",Amazon,2023-2038,Streaming,NFL,"~$563,000 (2024 estimate)",>$1 billion per year (reported ~$1.1B),Hybrid,"On-Site Stadiums; Stamford, Ct",Amazon Studios + NBC Sports
 Paramount+,USA,Cbs Games (Digital),Paramount Global,2023-2039,Streaming,NFL,"$30,000$80,000",No separate fee (included in CBS deal),In House,"New York, Ny; Mount Laurel, Nj",CBS Sports + NFL Films
 Peacock,USA,Nbc Games (Digital + Exclusive Streams),NBCUniversal,2023-2040,Streaming,NFL,"~$563,000 (2024 estimate)",No separate fee,In House,"Stamford, Ct",NBC Sports
-ESPN+,USA,Espn Games + International Series,The Walt Disney Company,2023-2041,Streaming,NFL,"$20,000$150,000",No separate fee (included in ESPN deal),In House,"Bristol, Ct",ESPN
+ESPN+,USA,Espn Games + International Series,Disney,2023-2041,Streaming,NFL,"$20,000$150,000",No separate fee (included in ESPN deal),In House,"Bristol, Ct",ESPN
 Tubi,USA,Fox Games (Ad-Supported Digital),FOX Corporation,2023-2042,Streaming,NFL,CPM pricing $20,No separate fee (included in FOX deal),Outsourced,"Mount Laurel, Nj",NFL Films (Licensed)
 Youtube Tv,USA,Nfl Sunday Ticket (Out-Of-Market Games),Alphabet (Google),2023-2043,Streaming,NFL,CPM pricing $57,~$2 billion per year,Outsourced,Various U.S. Locations,"CBS, FOX, NBC, ESPN (Feeds)"
 NFL+,USA,In-Market Mobile & National Games,NFL,2023-2044,Streaming,NFL,depending on game cpm 20-60,,In House,"Inglewood, Ca; Mount Laurel, Nj",NFL Media / NFL Films
@@ -17,10 +17,10 @@ Canal 5,Mexico,Spanish-Language Nfl Games,TelevisaUnivision,2023-2033,Internatio
 DAZN,Canada,Nfl Game Pass International; Full Streaming Coverage (Excl. Us/China),DAZN Group,2023-2033,International,NFL,CPM pricing 10-60,~$100 million per year (est.),Outsourced,Various U.S. Locations,"CBS, FOX, NBC, ESPN (Licensed Feeds)"
 DAZN,Germany,Nfl Game Pass International; Full Streaming Coverage (Excl. Us/China),DAZN Group,2023-2033,International,NFL,CPM pricing 10-60,~$100 million per year (est.),Outsourced,Various U.S. Locations,"CBS, FOX, NBC, ESPN (Licensed Feeds)"
 DAZN,Latin America,Nfl Game Pass International; Full Streaming Coverage (Excl. Us/China),DAZN Group,2023-2033,International,NFL,CPM pricing 10-60,~$100 million per year (est.),Outsourced,Various U.S. Locations,"CBS, FOX, NBC, ESPN (Licensed Feeds)"
-ESPN,Australia,English- And Spanish-Language Rights; Regional Playoff & Super Bowl Coverage,The Walt Disney Company,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Bristol, Ct",ESPN
-ESPN,Brazil,English- And Spanish-Language Rights; Regional Playoff & Super Bowl Coverage,The Walt Disney Company,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Bristol, Ct",ESPN
-ESPN,Mexico,English- And Spanish-Language Rights; Regional Playoff & Super Bowl Coverage,The Walt Disney Company,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Bristol, Ct",ESPN
-ESPN,India,English- And Spanish-Language Rights; Regional Playoff & Super Bowl Coverage,The Walt Disney Company,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Bristol, Ct",ESPN
+ESPN,Australia,English- And Spanish-Language Rights; Regional Playoff & Super Bowl Coverage,Disney,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Bristol, Ct",ESPN
+ESPN,Brazil,English- And Spanish-Language Rights; Regional Playoff & Super Bowl Coverage,Disney,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Bristol, Ct",ESPN
+ESPN,Mexico,English- And Spanish-Language Rights; Regional Playoff & Super Bowl Coverage,Disney,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Bristol, Ct",ESPN
+ESPN,India,English- And Spanish-Language Rights; Regional Playoff & Super Bowl Coverage,Disney,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Bristol, Ct",ESPN
 FOX Sports,Mexico,Spanish-Language Nfl Games,FOX Corporation,2023-2033,International,NFL,CPM pricing 10-20,,In House,"Los Angeles, Ca; On-Site Stadiums",FOX Sports
 Movistar Deportes,Spain,"Premium Games, Playoffs, And Super Bowl",Telefónica,2023-2033,International,NFL,CPM pricing 11-26,,Outsourced,Spain; Uses International Feed,ESPN International
 Nippon Tv,Japan,"Regular Season + Postseason, Super Bowl",Nippon Television,2023-2033,International,NFL,"$5,700$37,400",,Outsourced,"Tokyo, Japan; Uses Licensed Content",Nippon Tv (With NFL International Feed)
@@ -30,45 +30,45 @@ Seven Network,Australia,"Selected Games, Including Playoffs",Seven West Media,20
 Sky México,Mexico,Pay Tv Nfl Package,TelevisaUnivision,20232033,International,NFL,CPM pricing 8-20,,Outsourced,Mexico City; Simulcast Feeds From U.S.,"NBC, CBS, FOX (Via NFL International)"
 Sky Sports (Uk),United Kingdom,Premier Broadcast Partner; London Series + Full Sunday Schedule,Comcast (Sky Group),20232033,International,NFL,"different packages 5,000- 50,000",,In House,London; On-Site Crew For Key Games,Sky Sports (Owned By Comcast)
 Sport1 (Est.),Israel,Regional Pay-Tv Coverage (Unconfirmed By Ioc/Nfl),Sport1 Ltd.,Estimated renewed deal,International,NFL,CPM pricing 8.6-42.9,,Outsourced,Germany; Uses Simulcast From Nfl Feeds,NFL Network International
-Star Sports,India,"English-Language Rights, Includes Mobile Streaming",The Walt Disney Company,20232033,International,NFL,"~$6,250",,Outsourced,"Mumbai, India; Simulcast Of U.S. Games","NBC, ESPN, FOX (Via NFL International)"
+Star Sports,India,"English-Language Rights, Includes Mobile Streaming",Disney,20232033,International,NFL,"~$6,250",,Outsourced,"Mumbai, India; Simulcast Of U.S. Games","NBC, ESPN, FOX (Via NFL International)"
 Televisaunivision,Mexico,Multiple Platform Distribution Via Canal 5 & Sky México,TelevisaUnivision,20232033,International,NFL,CPM pricing 10-25,,Outsourced,Mexico City; Local Language Broadcast,"NBC, CBS, FOX (Via NFL International)"
 TSN ,Canada,Linear Tv Simulcasts Of Major Games,Bell Media,20232033,International,NFL,CPM pricing 35-65+,,Outsourced,"Toronto, Canada; Simulcast Feeds From U.S.","NBC, CBS, FOX (Via NFL International)"
 Tvnz,New Zealand,Playoffs And Super Bowl,Government / Tvnz,20232033,International,NFL,CPM pricing 144,,Outsourced,"Auckland, New Zealand; Simulcast Feeds","NBC, CBS, FOX (Via NFL International)"
 Yes+ (Est.),Israel,Satellite Broadcast Via National Network,Bezeq,Estimated renewed deal,International,NFL,No ads,,Outsourced,Tel Aviv; Uses Simulcast Feeds,NFL Network International
 NFL+,USA,"In-Market Live Games, Replays, Mobile",NFL,20232033,Digital,NFL,,,In House,"Inglewood, Ca; Mount Laurel, Nj",NFL Media / NFL Films
 Youtube ,USA,"Highlights, Nfl Films, Promotions",NFL,ongoing,Digital,NFL,,,Outsourced,Global Digital Platforms; Localized Clipping,"NFL Media, U.S. Network Partners"
-Sky Sports,Uk & Ireland,"Live Matches, 215 Per Season Incl. Friday/Sun/Mon Night",Comcast (Sky Group),20252028,Broadcast,Premier Leauge,~$375$0,2112500000,In House,"Isleworth, London; On-Site Stadiums",Sky Sports
-TNT Sports,Uk & Ireland,52 Matches Per Season Incl. Midweek Rounds; Rights Retained,Warner Bros. Discovery,20252028,Broadcast,Premier Leauge,,~$420 million/year,Outsourced,London; Uses World Feed,Premier League Productions (Img)
-NBC ,USA,Weekend And Weekday Matches; Exclusive U.S. Deal,NBCUniversal,20222028,Broadcast,Premier Leauge,~$150$0,~$460 million/year,Outsourced,"Stamford, Ct; Uses World Feed",Premier League Productions (Img)
-Peacock,USA,Live Nbc Matches; 175+ Matches/Year On-Demand,NBCUniversal,20222028,Streaming,Premier Leauge,"CPM pricing 1,000",Included in NBC deal,Outsourced,"Stamford, Ct; Uses World Feed",Premier League Productions (Img)
-Fubotv,Canada,Exclusive Streaming Of All 380 Matches,Fubotv,20252028,Streaming,Premier Leauge,Subscription Only,~$25$35 million/year,Outsourced,Various U.S. Locations,"CBS, FOX, NBC, ESPN Feeds"
-Optus Sport,Australia,Exclusive Live Telecast Via Ott,Singtel/Optus,20252028,Streaming,Premier Leauge,Subscription Only,~$60$75 million/year,Outsourced,"Sydney, Australia; Uses World Feed",Premier League Productions (Img)
-U-Next,Japan,All Live Matches Via Ott Platform,U-Next,20252028,Streaming,Premier Leauge,,,Outsourced,Japan; Uses World Feed,Premier League Productions (Img)
-Coupang Play,South Korea,Exclusive Live Premier League Via Ott,Coupang,20252028,Streaming,Premier Leauge,,,Outsourced,South Korea; Uses World Feed,Premier League Productions (Img)
-Starhub,Singapore,Regional Ott Provider For Full Season Matches,Starhub,20252028,Streaming,Premier Leauge,,,Outsourced,Singapore; Uses World Feed,Premier League Productions (Img)
-Jiostar,India,Live Matches Via App (Via Star Sports),Essar/Jio,20252028,Streaming,Premier Leauge,,,Outsourced,India; Uses World Feed,Premier League Productions (Img)
-Pccw (Now Tv),Hong Kong,Full-Season Coverage Until 2025,Pccw,20222025,Streaming,Premier Leauge,,,Outsourced,Hong Kong; Uses World Feed,Premier League Productions (Img)
-Jasmine International,Thailand / Cambodia / Laos,Live And Ott Streaming,Jasmine International,20252028,Streaming,Premier Leauge,,,Outsourced,Thailand/Middle East; Uses World Feed,Premier League Productions (Img)
-Tubi,Mexico / Central America,Free Streaming Platform For Selected Matches,FOX Corporation,20252028,Streaming,Premier Leauge,,,Outsourced,Vod Platform; Highlights Only,Premier League Productions (Img)
-DAZN,Germany,Ott Rights For Multiple Territories,DAZN Group,20252028,Streaming,Premier Leauge,Subscription Only,~$60$75 million/year,Outsourced,Global (Various); Uses World Feed,Premier League Productions (Img)
-DAZN,Spain,Ott Rights For Multiple Territories,DAZN Group,20252028,Streaming,Premier Leauge,Subscription Only,~$60$75 million/year,Outsourced,Global (Various); Uses World Feed,Premier League Productions (Img)
-Digicel,Oceania / Pacific Islands,Live Matches Via Ott & Tv,Digicel Group,20252028,Streaming,Premier Leauge,,,Outsourced,Caribbean; Uses World Feed,Premier League Productions (Img)
-Bbc,Uk,Match Of The Day Highlights Show,Bbc,Ongoing,Syndication,Premier Leauge,No ads,~$220 million/year,Outsourced,London; Uses Match Footage And Highlights,Premier League Productions (Img)
-Bein Sports,Mena Region,Exclusive Premier League Rights,Bein Media Group,20252028,International,Premier Leauge,~$$500,~$150$200 million/year,Outsourced,Middle East/North Africa; Uses World Feed,Premier League Productions (Img)
-Supersport,Sub-Saharan Africa,Live & Highlights Supersport Package,Multichoice,20252028,International,Premier Leauge,,,Outsourced,Sub-Saharan Africa; Uses World Feed,Premier League Productions (Img)
-Canal+,France / Poland / Ceemea,Premium Pay-Tv & Ott,Vivendi/Canal+ Group,20252028,International,Premier Leauge,,,Outsourced,France; Uses World Feed,Premier League Productions (Img)
-Movistar+,Spain,Premium Full Live Fixture Coverage,Telefónica,20252028,International,Premier Leauge,,,Outsourced,Spain; Uses World Feed,Premier League Productions (Img)
-Warner Bros. Discovery,Mexico / Central America,Premier League Via Tnt Sports / Max,WBD,20252028,International,Premier Leauge,,,Outsourced,Europe/U.S.; Uses World Feed,Premier League Productions (Img)
-Sky Deutschland,Austria / Germany / Switzerland,Live Matches Via Sky Linear & App,Comcast (Sky Group),20252028,International,Premier Leauge,,,Outsourced,Germany; Uses World Feed,Premier League Productions (Img)
-Sky Sport,New Zealand,Live Matches Via Linear & Digital Service,Sky Nz (Comcast),20252028,International,Premier Leauge,,,Outsourced,Italy; Uses World Feed,Premier League Productions (Img)
-Star Sports,India,Television Broadcast Rights (Partner To Jio),The Walt Disney Company,20252028,International,Premier Leauge,,,Outsourced,India; Uses World Feed,Premier League Productions (Img)
-Sport 1,Israel,Premium Live Broadcast,Sport1 Ltd.,20252028,International,Premier Leauge,,,Outsourced,Germany; Uses World Feed,Premier League Productions (Img)
-Astro,Malaysia,Live Matches Via Astro Platform,Astro Malaysia Holdings,20252028,International,Premier Leauge,,,Outsourced,Malaysia; Uses World Feed,Premier League Productions (Img)
-Iqiyi / Cctv,China,Streaming + State Broadcast Coverage,Cctv / Iqiyi,20252028,International,Premier Leauge,,,Outsourced,China; Uses World Feed,Premier League Productions (Img)
-Premier League Productions,Global,Central Content Production (Ott Headline/Promo),Premier League,2026,Digital,Premier Leauge,,,In House,London; Moving To Olympia Hq In 2026,Premier League Productions
+Sky Sports,Uk & Ireland,"Live Matches, 215 Per Season Incl. Friday/Sun/Mon Night",Comcast (Sky Group),20252028,Broadcast,Premier League,~$375$0,2112500000,In House,"Isleworth, London; On-Site Stadiums",Sky Sports
+TNT Sports,Uk & Ireland,52 Matches Per Season Incl. Midweek Rounds; Rights Retained,Warner Bros. Discovery,20252028,Broadcast,Premier League,,~$420 million/year,Outsourced,London; Uses World Feed,Premier League Productions (Img)
+NBC ,USA,Weekend And Weekday Matches; Exclusive U.S. Deal,NBCUniversal,20222028,Broadcast,Premier League,~$150$0,~$460 million/year,Outsourced,"Stamford, Ct; Uses World Feed",Premier League Productions (Img)
+Peacock,USA,Live Nbc Matches; 175+ Matches/Year On-Demand,NBCUniversal,20222028,Streaming,Premier League,"CPM pricing 1,000",Included in NBC deal,Outsourced,"Stamford, Ct; Uses World Feed",Premier League Productions (Img)
+Fubotv,Canada,Exclusive Streaming Of All 380 Matches,Fubotv,20252028,Streaming,Premier League,Subscription Only,~$25$35 million/year,Outsourced,Various U.S. Locations,"CBS, FOX, NBC, ESPN Feeds"
+Optus Sport,Australia,Exclusive Live Telecast Via Ott,Singtel/Optus,20252028,Streaming,Premier League,Subscription Only,~$60$75 million/year,Outsourced,"Sydney, Australia; Uses World Feed",Premier League Productions (Img)
+U-Next,Japan,All Live Matches Via Ott Platform,U-Next,20252028,Streaming,Premier League,,,Outsourced,Japan; Uses World Feed,Premier League Productions (Img)
+Coupang Play,South Korea,Exclusive Live Premier League Via Ott,Coupang,20252028,Streaming,Premier League,,,Outsourced,South Korea; Uses World Feed,Premier League Productions (Img)
+Starhub,Singapore,Regional Ott Provider For Full Season Matches,Starhub,20252028,Streaming,Premier League,,,Outsourced,Singapore; Uses World Feed,Premier League Productions (Img)
+Jiostar,India,Live Matches Via App (Via Star Sports),Essar/Jio,20252028,Streaming,Premier League,,,Outsourced,India; Uses World Feed,Premier League Productions (Img)
+Pccw (Now Tv),Hong Kong,Full-Season Coverage Until 2025,Pccw,20222025,Streaming,Premier League,,,Outsourced,Hong Kong; Uses World Feed,Premier League Productions (Img)
+Jasmine International,Thailand / Cambodia / Laos,Live And Ott Streaming,Jasmine International,20252028,Streaming,Premier League,,,Outsourced,Thailand/Middle East; Uses World Feed,Premier League Productions (Img)
+Tubi,Mexico / Central America,Free Streaming Platform For Selected Matches,FOX Corporation,20252028,Streaming,Premier League,,,Outsourced,Vod Platform; Highlights Only,Premier League Productions (Img)
+DAZN,Germany,Ott Rights For Multiple Territories,DAZN Group,20252028,Streaming,Premier League,Subscription Only,~$60$75 million/year,Outsourced,Global (Various); Uses World Feed,Premier League Productions (Img)
+DAZN,Spain,Ott Rights For Multiple Territories,DAZN Group,20252028,Streaming,Premier League,Subscription Only,~$60$75 million/year,Outsourced,Global (Various); Uses World Feed,Premier League Productions (Img)
+Digicel,Oceania / Pacific Islands,Live Matches Via Ott & Tv,Digicel Group,20252028,Streaming,Premier League,,,Outsourced,Caribbean; Uses World Feed,Premier League Productions (Img)
+Bbc,Uk,Match Of The Day Highlights Show,Bbc,Ongoing,Syndication,Premier League,No ads,~$220 million/year,Outsourced,London; Uses Match Footage And Highlights,Premier League Productions (Img)
+Bein Sports,Mena Region,Exclusive Premier League Rights,Bein Media Group,20252028,International,Premier League,~$$500,~$150$200 million/year,Outsourced,Middle East/North Africa; Uses World Feed,Premier League Productions (Img)
+Supersport,Sub-Saharan Africa,Live & Highlights Supersport Package,Multichoice,20252028,International,Premier League,,,Outsourced,Sub-Saharan Africa; Uses World Feed,Premier League Productions (Img)
+Canal+,France / Poland / Ceemea,Premium Pay-Tv & Ott,Vivendi/Canal+ Group,20252028,International,Premier League,,,Outsourced,France; Uses World Feed,Premier League Productions (Img)
+Movistar+,Spain,Premium Full Live Fixture Coverage,Telefónica,20252028,International,Premier League,,,Outsourced,Spain; Uses World Feed,Premier League Productions (Img)
+Warner Bros. Discovery,Mexico / Central America,Premier League Via Tnt Sports / Max,WBD,20252028,International,Premier League,,,Outsourced,Europe/U.S.; Uses World Feed,Premier League Productions (Img)
+Sky Deutschland,Austria / Germany / Switzerland,Live Matches Via Sky Linear & App,Comcast (Sky Group),20252028,International,Premier League,,,Outsourced,Germany; Uses World Feed,Premier League Productions (Img)
+Sky Sport,New Zealand,Live Matches Via Linear & Digital Service,Sky Nz (Comcast),20252028,International,Premier League,,,Outsourced,Italy; Uses World Feed,Premier League Productions (Img)
+Star Sports,India,Television Broadcast Rights (Partner To Jio),Disney,20252028,International,Premier League,,,Outsourced,India; Uses World Feed,Premier League Productions (Img)
+Sport 1,Israel,Premium Live Broadcast,Sport1 Ltd.,20252028,International,Premier League,,,Outsourced,Germany; Uses World Feed,Premier League Productions (Img)
+Astro,Malaysia,Live Matches Via Astro Platform,Astro Malaysia Holdings,20252028,International,Premier League,,,Outsourced,Malaysia; Uses World Feed,Premier League Productions (Img)
+Iqiyi / Cctv,China,Streaming + State Broadcast Coverage,Cctv / Iqiyi,20252028,International,Premier League,,,Outsourced,China; Uses World Feed,Premier League Productions (Img)
+Premier League Productions,Global,Central Content Production (Ott Headline/Promo),Premier League,2026,Digital,Premier League,,,In House,London; Moving To Olympia Hq In 2026,Premier League Productions
 FOX,USA,Fox Saturday Baseball; Regional Games,FOX Corporation,20192028,Broadcast,MLB,"$250,000$400,000",$5.1 billion,In House,"Los Angeles, Ca (Fox Studios + On-Site At Games)",FOX Sports
 TBS,USA,Sunday Games + Playoff Windows,Turner (Warner Bros. Discovery),20192028,Broadcast,MLB,"$200,000$350,000",$3.24 billion,In House,"Atlanta, Ga + On-Site Regions",TBS Sports (Warner Bros. Discovery)
-ESPN / ESPN+,USA,"Sunday Night Baseball, Wild Card Series, Espn+ Exclusives",The Walt Disney Company,20222028,Broadcast,MLB,"$180,000$300,000",$3.85 billion (20222028),In House,"Bristol, Ct + On-Site Games",ESPN
+ESPN / ESPN+,USA,"Sunday Night Baseball, Wild Card Series, Espn+ Exclusives",Disney,20222028,Broadcast,MLB,"$180,000$300,000",$3.85 billion (20222028),In House,"Bristol, Ct + On-Site Games",ESPN
 NBC,USA,Game Of The Week Specials,NBCUniversal,20222023,Broadcast,MLB,"$125,000$225,000",Short-term; est. $50100 million,In House,"Stamford, Ct + On-Site Games",NBC Sports
 Regional Sports Networks,USA,Local Team Games,"Various (Bally, Yes, Masn, Etc.)",Varies by team,Broadcast,MLB,"$10,000$75,000",,In House,Various Local Markets,"Various Rsns (E.G., Bally Sports, Yes Network)"
 Apple Tv+,USA,"Exclusive ""Friday Night Baseball""",Apple Inc.,20222028,Streaming,MLB,"~$3,045",Est. $85100 million (20222028),In House,U.S. Production Studios + On-Site For Friday Night,Apple (With Mlb Media Partners)
@@ -77,9 +77,9 @@ Roku Channel,USA,Sunday Leadoff Game,Roku Inc.,2024present,Streaming,MLB,"~$1,
 Mlb.Tv,Global,Out-Of-Market Games + Audio,Mlb Advanced Media,Ongoing,Streaming,MLB,"~$2,045",Ongoing subscription model,In House,"Mlb Production Control (Secaucus, Nj)",Mlb Advanced Media
 Mlb Local Media,USA,In-Market Streaming For Select Teams,Mlb,2025present,Streaming,MLB,,,In House,"Team Markets (Arizona, Cleveland, Etc.)",Mlb Local Media
 Mlb Network,Usa / Global,Studio Shows + Replays,Mlb ,Ongoing,Syndication,MLB,,,In House,"Secaucus, Nj Studio + On-Site Games",Mlb Network
-ESPN Latin America,Latin America & Caribbean,"Live Games, Playoffs, All-Star Coverage",The Walt Disney Company,20252028,International,MLB,CPM-based,,In House,Miami / Latin Bureau + Feed,ESPN Latin America
-ESPN Brazil,Brazil,Regular And Postseason Games On Espn Brasil,The Walt Disney Company,20252028,International,MLB,CPM-based,,In House,São Paulo Studios + Feed,ESPN Brasil
-ESPN Australia,Australia,Live Games Via Espn Channels & Streaming,The Walt Disney Company,20252028,International,MLB,CPM-based,,In House,Sydney Bureau + Feed,ESPN Australia
+ESPN Latin America,Latin America & Caribbean,"Live Games, Playoffs, All-Star Coverage",Disney,20252028,International,MLB,CPM-based,,In House,Miami / Latin Bureau + Feed,ESPN Latin America
+ESPN Brazil,Brazil,Regular And Postseason Games On Espn Brasil,Disney,20252028,International,MLB,CPM-based,,In House,São Paulo Studios + Feed,ESPN Brasil
+ESPN Australia,Australia,Live Games Via Espn Channels & Streaming,Disney,20252028,International,MLB,CPM-based,,In House,Sydney Bureau + Feed,ESPN Australia
 Sportsnet,Canada,Blue Jays + Postseason Coverage,Rogers Media,20252028,International,MLB,"$30,000$90,000",,In House,Toronto Studios + Local Game Sites,Rogers Sportsnet
 TSN / Rds,Canada,Espn Content Including Sunday/Monday Games,Bell Media,20252028,International,MLB,"$20,000$60,000",,In House,Toronto Studios + Feed,Bell Media
 Televisaunivision,Mexico,Regular & Postseason Coverage,TelevisaUnivision,2024present,International,MLB,"~$1,535",,Outsourced,Mexico City (Simulcast Licensed Mlb Feed),Televisaunivision
@@ -93,27 +93,27 @@ Astro,Malaysia,Postseason And All-Star Game Coverage,Astro Malaysia Holdings,202
 Mlb.Tv,Global,Out-Of-Market Streaming + Live Audio,Mlb,Ongoing,Digital,MLB,"~$1,030",,In House,"Secaucus, Nj (Mlb Network)",Mlb Network
 Mlb Network App,Global,Mlb Network Streaming Content,Mlb ,Ongoing,Digital,MLB,,,Outsourced,"Online Clips From Mlb, Mlb Network",Mlb / Mlb Network
 Youtube / Social,Global,"Highlights, Clips, Mlb Content",Mlb ,Ongoing,Digital,MLB,,,Production Type,Production Entity,Production Location
-ABC,USA,"Nba Finals, Primetime Showcase Games",The Walt Disney Company,20252036,Broadcast,NBA,"$350,000  $500,000 (NBA Finals on ABC)","$2,600,000,000 per year ",In-House,Espn,"Bristol, Ct"
+ABC,USA,"Nba Finals, Primetime Showcase Games",Disney,20252036,Broadcast,NBA,"$350,000  $500,000 (NBA Finals on ABC)","$2,600,000,000 per year ",In-House,Espn,"Bristol, Ct"
 NBC,USA,"Sunday Night Games, Playoffs Flex (From 2025)",NBCuniversal (Comcast),20252036,Broadcast,NBA,"$250,000  $400,000 (Sunday NBA on NBC est.)","$2,500,000,000 per year ",In-House,Nbc Sports,"Stamford, Ct"
 Amazon Prime Video,USA,"Thursday Night Games, Nba Cup Tournament",Amazon,20252036,Broadcast,NBA,"$150,000  $300,000 (Prime NBA Thursdays est.)","$1,800,000,000 per year",In-House,Amazon Prime Sports,Nyc; London; Tokyo
-ESPN / ESPN+,USA,Simulcast Games + Exclusive Regular & Global Coverage,The Walt Disney Company,20252036,Streaming,NBA,,,In-House,Espn,"Bristol, Ct"
+ESPN / ESPN+,USA,Simulcast Games + Exclusive Regular & Global Coverage,Disney,20252036,Streaming,NBA,,,In-House,Espn,"Bristol, Ct"
 Peacock,USA,Exclusive Nba Games + Simulcasts,NBCUniversal,20252036,Streaming,NBA,,,In-House,Nbc Sports / Peacock,"Stamford, Ct"
 Nba League Pass,Global,Complete Out-Of-Market Subscription Package,Nba,Ongoing,Streaming,NBA,,,In-House,Nba Digital,"Atlanta, Ga"
 Nba Tv / Nba App,Global,"Studio Shows, Replays, Some Non-Exclusive Live Games",Nba,Ongoing,Syndication,NBA,,,In-House,Nba Tv (Turner Sports),"Atlanta, Ga"
 DAZN,Canada,North American Nba Games / Full Package,DAZN Group,20252036,International,NBA,,,Mixed/In-House,DAZN,London; Tokyo; Munich
 DAZN,Germany,North American Nba Games / Full Package,DAZN Group,20252036,International,NBA,,,Mixed/In-House,DAZN,London; Tokyo; Munich
 TSN / Sportsnet,Canada,Linear Simulcasts And Regular Nba Games,Bell Media / Rogers,20252036,International,NBA,,,In-House,Tsn / Sportsnet,"Toronto, On"
-ESPN Latin America,Mexico,Regional All-Star + Playoff Distribution,The Walt Disney Company,20252036,International,NBA,,,In-House,Espn Latin America,Buenos Aires; Mexico City; São Paulo
-ESPN Latin America,Brazil,Regional All-Star + Playoff Distribution,The Walt Disney Company,20252036,International,NBA,,,In-House,Espn Latin America,Buenos Aires; Mexico City; São Paulo
-ESPN Latin America,Argentina,Regional All-Star + Playoff Distribution,The Walt Disney Company,20252036,International,NBA,,,In-House,Espn Latin America,Buenos Aires; Mexico City; São Paulo
+ESPN Latin America,Mexico,Regional All-Star + Playoff Distribution,Disney,20252036,International,NBA,,,In-House,Espn Latin America,Buenos Aires; Mexico City; São Paulo
+ESPN Latin America,Brazil,Regional All-Star + Playoff Distribution,Disney,20252036,International,NBA,,,In-House,Espn Latin America,Buenos Aires; Mexico City; São Paulo
+ESPN Latin America,Argentina,Regional All-Star + Playoff Distribution,Disney,20252036,International,NBA,,,In-House,Espn Latin America,Buenos Aires; Mexico City; São Paulo
 Movistar+,Spain,Premium Sunday + Playoff Games,Teléfónica,20252036,International,NBA,,,In-House,Movistar Deportes,Madrid
 Bein Sports,France,Full Nba Coverage,Bein Media Group,20252036,International,NBA,"$15,000  $35,000 (MENA region est.)","~$120,000,000 per year (beIN NBA rights est.)",In-House,Bein Sports Mena,Doha
 Bein Sports,Mena,Full Nba Coverage,Bein Media Group,20252036,International,NBA,"$15,000  $35,000 (MENA region est.)","~$120,000,000 per year (beIN NBA rights est.)",In-House,Bein Sports Mena,Doha
-Star Sports,India,Digital & Tv Nba Games,The Walt Disney Company,20252036,International,NBA,,,In-House,Disney Star India,Mumbai; Noida
-ESPN Australia,Australia,Live + Playoff Nba Coverage,The Walt Disney Company,20252036,International,NBA,,,In-House,Espn Australia,Sydney; Melbourne
+Star Sports,India,Digital & Tv Nba Games,Disney,20252036,International,NBA,,,In-House,Disney Star India,Mumbai; Noida
+ESPN Australia,Australia,Live + Playoff Nba Coverage,Disney,20252036,International,NBA,,,In-House,Espn Australia,Sydney; Melbourne
 Rakuten / DAZN,Japan,Live Nba Streaming Content,Rakuten / DAZN Japan,20252036,International,NBA,,,In-House,Rakuten / DAZN,Tokyo
 Sport 5,Israel,Pay-Tv Nba Broadcasts,Sport 5 Ltd.,20252036,International,NBA,,,,,Tel Aviv
-ESPN+ / ESPN,Global,Simulcast + On-Demand Content,The Walt Disney Company,Ongoing,Digital,NBA,,Included in ESPN+ bundle,In-House,Espn,"Bristol, Ct"
+ESPN+ / ESPN,Global,Simulcast + On-Demand Content,Disney,Ongoing,Digital,NBA,,Included in ESPN+ bundle,In-House,Espn,"Bristol, Ct"
 Peacock / NBC,Global,Exclusive Digital Nba Content,NBCUniversal,Ongoing,Digital,NBA,,Included in NBCUniversal bundle,In-House,Nbc Sports / Peacock,"Stamford, Ct"
 Amazon Prime Video,Global,"Vod, Archive, Interactive Features",Amazon,Ongoing,Digital,NBA,,,In-House,Amazon Prime Sports,Nyc; London; Tokyo
 Nba League Pass,Global,Digital Subscription Package,Nba,Ongoing,Digital,NBA,,,In-House,Nba Digital,"Atlanta, Ga"
@@ -121,7 +121,7 @@ ABC / ESPN,USA,Primetime & Playoff Games + All-Star; 25+ Games/Season,Disney,202
 NBC / Usa Network,USA,"50+ Games, First-Round Picks, Playoff Coverage",NBCuniversal (Comcast),20262036,Broadcast,WNBA,"$40,000  $70,000 (NBC/USA WNBA coverage est.)",Included in NBCs WNBA package,In-House,Nbc Sports,"Stamford, Ct & Nyc; On-Site At Venues"
 Ion Television,USA,~50 Friday Night Games,Ion Media (Scripps),20232025,Broadcast,WNBA,"$25,000  $40,000 (ION Friday night games est.)",,In-House,Scripps Sports,"Ion/Scripps Studios (E.G., Cincinnati)"
 CBS / CBS Sports Network,USA,"20 Games, Including Primetime Saturday Cbs",Paramount Global,20232025,Broadcast,WNBA,"$20,000  $35,000 (Saturday WNBA on CBS est.)",,In-House,Cbs Sports,"Broadcast Center, Nyc; On-Site At Venues"
-ESPN+ / ESPN App,USA,Simulcast + Exclusive Regular Season & Playoffs,The Walt Disney Company,20262036,Streaming,WNBA,,Included in ESPN deal,In-House,Espn,Same ESPN Production Infrastructure
+ESPN+ / ESPN App,USA,Simulcast + Exclusive Regular Season & Playoffs,Disney,20262036,Streaming,WNBA,,Included in ESPN deal,In-House,Espn,Same ESPN Production Infrastructure
 Peacock,USA,Nbcu Coverage + Playoff Series Streaming,NBCUniversal,20262036,Streaming,WNBA,,Included in NBC deal,In-House,Nbc Sports/Peacock,NBCu Production Sites; On-Site
 Prime Video,Global,"30+ Games, Commissioner'S Cup Final & Playoff Games",Amazon,20262036,Streaming,WNBA,,Included in Amazon WNBA deal,In-House,Amazon (+ Nbcu Partnership),Amazon Centers & NBCu Venues
 Wnba League Pass,Global,"All Out-Of-Market Games, Live & On-Demand",Wnba,Active subscription model,Streaming,WNBA,,,League-Driven,Wnba,League Digital Hq + Partner Venues
@@ -158,7 +158,7 @@ Sky Sports,Uk & Ireland,Full Atp Tour Coverage Through 2028,Comcast (Sky Group),
 Sky Deutschland,Germany/Austria/Switzerland,Masters + Other Tour Events,Comcast (Sky Group),20252028,Broacast,Atp Tennis,"$15,000$35,000",,,,
 Eurosport,France & Europe,"Masters 1000, Tour Finals, Atp 500/250",WBD,20242026,Broacast,Atp Tennis,"$10,000$30,000",,In-House,Tennis Channel (Sinclair),"Culver City, Ca Studio; On-Site At Atp Events"
 U-Next,Japan,Full Atp Tour Rights Via Ott,U-Next Co. Ltd.,20252028,Broacast,Atp Tennis,"~$1,025",,In-House,Sky Sports,"Osterley, Uk Studios; On-Site Tournament Coverage"
-ESPN / ESPN+,USA,"Indian Wells, Miami Open, Atp Finals (Limited); Grand Slam Rights (E.G. Us Open)",The Walt Disney Company,"Through 2037 (US Open), others vary",Broacast,Atp Tennis,"$20,000$50,000 (ESPN for Indian Wells, US Open)",,In-House,Sky Deutschland,Germany Studios; On-Site Events
+ESPN / ESPN+,USA,"Indian Wells, Miami Open, Atp Finals (Limited); Grand Slam Rights (E.G. Us Open)",Disney,"Through 2037 (US Open), others vary",Broacast,Atp Tennis,"$20,000$50,000 (ESPN for Indian Wells, US Open)",,In-House,Sky Deutschland,Germany Studios; On-Site Events
 Tennis Tv,Global,Atp Official Ott: Live + Archive Matches,Atp Media (Atp Tour),Ongoing,Streaming,Atp Tennis,CPM model; subscription only,,In-House,Warner Bros Discovery / Eurosport,European Studios/Hubs; On-Site Events
 Tennis Channel App,USA,App-Based Streaming For Tv Programming,Tennis Channel,Ongoing,Streaming,Atp Tennis,"~$1,530",,,,
 Bein Sports,Australia,"Masters 1000, Atp Finals & Atp 500/250",Bein Media Group,20252027,Streaming,Atp Tennis,"$10,000$25,000",,In-House,Espn,"Bristol, Ct; On-Site Events"
@@ -174,8 +174,8 @@ Canal+,France (Plus Eu),Premium Pay-Tv & Ott Coverage,Vivendi/Canal+ Group,2025�
 DAZN,Germany,Ott Streaming Via Dazn Group Across Eu,DAZN Group,20252028,International,Atp Tennis,CPM $10$25,,In-House,Tv3 Group (Baltics),Studio/Local; On-Site
 DAZN,Spain,Ott Streaming Via Dazn Group Across Eu,DAZN Group,20252028,International,Atp Tennis,CPM $10$25,,In-House,Tv3 Group (Baltics),Studio/Local; On-Site
 DAZN,Etc.,Ott Streaming Via Dazn Group Across Eu,DAZN Group,20252028,International,Atp Tennis,CPM $10$25,,In-House,Tv3 Group (Baltics),Studio/Local; On-Site
-ESPN Latin America,Latin America,Atp 250/500/1000 Tournament Coverage (Varies By Region),The Walt Disney Company,Ongoing,International,Atp Tennis,"$5,000$15,000",,In-House,Cmg / Cctv,China Studios; On-Site
-ESPN Australia,Australia,Select Atp Tour Coverage Via Cable And Streaming,The Walt Disney Company,Ongoing,International,Atp Tennis,"$4,000$10,000",,In-House,Canal+ (France),French Studios; On-Site
+ESPN Latin America,Latin America,Atp 250/500/1000 Tournament Coverage (Varies By Region),Disney,Ongoing,International,Atp Tennis,"$5,000$15,000",,In-House,Cmg / Cctv,China Studios; On-Site
+ESPN Australia,Australia,Select Atp Tour Coverage Via Cable And Streaming,Disney,Ongoing,International,Atp Tennis,"$4,000$10,000",,In-House,Canal+ (France),French Studios; On-Site
 Tennis Tv,Global,Complete Match Streaming + Archives,Atp Media,Ongoing,Digital,Atp Tennis,Subscription/CPM model (no standard 30s spot),,In-House,DAZN,Global Hubs; On-Site Depending Region
 Atp Media Tech,Global,Distribution Platform For Ott/Archive Feeds,Atp Media,Ongoing,Digital,Atp Tennis,CPM-based or partner-distributed,,In-House,Espn Latin,Latin American Studios; On-Site
 FOX Sports / Fs1,USA,English-Language Broadcast Of Matches,FOX Corporation,2026,Boradcast,World Cup,,,In-House,Espn Australia,Australian Studios; On-Site
@@ -224,14 +224,14 @@ Jiohotstar / Jiostar,India,Icc & India Home Series + Ipl,Dream Sports / Star / V
 Astro / FOX Cricket,Australia,Streaming Of Icc & Ca Events,Astro Malaysia Holdings / FOX,20242027,Streaming,Cricket,streaming CPM or subscription,,In-House,Astro / Fox Cricket,India Digital Hubs + On-Site
 Fancode,India,"Sri Lanka & Bangladesh Tours, Psl",Dreamsports / Reliance,Recent cycles,Streaming,Cricket,streaming CPM or subscription,,In-House,Fancode (Tcg),Icc Ibc + Global Venues
 Icc.Tv,Global,Free Live Streaming Of Icc World Test Championship Final & Archive,Icc,2025,Syndication,Cricket,,,In-House,International Cricket Council,Mumbai Studios + On-Site
-Star Sports,India & South Asia,Icc Event Broadcasting And Streaming,The Walt Disney Company,"20152023 cycle, likely extension",International,Cricket,,,In-House,Disney Star / Star Sports,India Studios + On-Site
+Star Sports,India & South Asia,Icc Event Broadcasting And Streaming,Disney,"20152023 cycle, likely extension",International,Cricket,,,In-House,Disney Star / Star Sports,India Studios + On-Site
 Sony Sports / Culver Max,New Zealand / Asia,International Cricket And Matches,Sony / Culver Max,Multi-year,International,Cricket,,,In-House,Sony Sports India,Japan Studios + On-Site
 Nhk Consortium,Japan,Coverage Of Icc And Japan Series,Nhk Consortium,2025+,International,Cricket,,,In-House,Japan Consortium,
 Sport 1 Ltd.,Israel,Icc Match Broadcasts,Sport 1 Ltd.,20252027,International,Cricket,,,,,Middle-East Hq + On-Site Icc Events
 Bein Sports,France,Icc Live Coverage,Bein Media,Ongoing,International,Cricket,,,In-House,Bein Sports,Germany Studios + On-Site
 Sky Deutschland,Germany & Dach,Icc Match Broadcasts,Comcast Sky Group,Ongoing,International,Cricket,,,In-House,Sky Deutschland,Canada Studios + On-Site (Carries Willow Content)
 Sportsnet / TSN,Canada,Blue Jays Cricket + Icc Deals,Rogers / Bell,Ongoing,International,Cricket,,,In-House,Rogers / Bell Media,
-ESPN / ABC,Usa (National),"Regular Season, Playoffs, Select Stanley Cup Finals",The Walt Disney Company,20212028,Broadcast,NHL,"$75,000$250,000 (ABC/ESPN primetime)",$400 million/year (7 years - $2.8 billion),In-House,Espn,"Bristol, Ct Studios; Remi Control Rooms + On-Site Venues"
+ESPN / ABC,Usa (National),"Regular Season, Playoffs, Select Stanley Cup Finals",Disney,20212028,Broadcast,NHL,"$75,000$250,000 (ABC/ESPN primetime)",$400 million/year (7 years - $2.8 billion),In-House,Espn,"Bristol, Ct Studios; Remi Control Rooms + On-Site Venues"
 TNT / TBS,Usa (National),"Regular Season, Playoffs, Select Stanley Cup Finals",Turner (Warner Bros. Discovery),20212028,Broadcast,NHL,"$50,000$200,000 (TNT playoff coverage)",$225 million/year (7 years - $1.575 billion),In-House,Turner Sports,Atlanta Hq + Remote On-Site Production
 NBC Sports / Usa (Local Markets),Usa (Regional),Select Team Games (Nbc Rsns In Local Markets),Comcast,Varies,Broadcast,NHL,"$5,000$25,000 (NBC RSNs)",,In-House,Nbc Sports,"Stamford, Ct Studios + On-Site Ob Trucks"
 Bally Sports / Local Rsns,Usa (Regional),"Local Team Broadcasts (E.G., Predators, Panthers, Etc.)",Sinclair (Diamond Sports Group),Varies,Broadcast,NHL,"$2,000$10,000 (Bally Sports RSNs)",,In-House,Bally Sports,Local Rsn Studios + Ob Venues
@@ -239,8 +239,8 @@ Victory+ / FOX Ota Stations,Usa (Regional),Regional Coverage For Teams Like Star
 Sportsnet / Citytv / Cbc,Canada (National),"National Games, Hockey Night In Canada, Stanley Cup Final",Rogers Communications,20142038,Broadcast,NHL,"$30,000$70,000",~$3.9 billion USD,In-House,Rogers Sportsnet / Cbc,"Canada Studios (Toronto, Etc.) + Venues"
 Tva Sports,Canada (French),French-Language National Broadcasts,Québecor Média,20142038,Broadcast,NHL,,Part of Rogers' national package (TVA Sports),In-House,Tva Sports,Quebec Studios + On-Site
 Cbc (Simulcast),Canada (Simulcast),Hockey Night In Canada (Simulcast With Sportsnet),Canadian Broadcasting Corporation,20142038,Broadcast,NHL,,Simulcast (no fee paid),In-House,Cbc,Toronto/Montreal Studios + Venues
-ESPN+,USA,"National Games, Out-Of-Market Streaming",The Walt Disney Company,20212028,Streaming,NHL,"~$2,035",Included in Disneys $400M/year deal,In-House,Espn,Same As ESPN/ABC Remi
-Hulu,USA,Select Espn Games Via Hulu Partnership,The Walt Disney Company,20212028,Streaming,NHL,Included with ESPN+,Included in Disneys $400M/year deal,In-House,Espn/Hulu Platform,Same As ESPN + Streaming
+ESPN+,USA,"National Games, Out-Of-Market Streaming",Disney,20212028,Streaming,NHL,"~$2,035",Included in Disneys $400M/year deal,In-House,Espn,Same As ESPN/ABC Remi
+Hulu,USA,Select Espn Games Via Hulu Partnership,Disney,20212028,Streaming,NHL,Included with ESPN+,Included in Disneys $400M/year deal,In-House,Espn/Hulu Platform,Same As ESPN + Streaming
 Max (Formerly Hbo Max),USA,Tnt-Produced Nhl Games,Turner (Warner Bros. Discovery),20232028,Streaming,NHL,"~$1,530",Included in WBDs $225M/year deal,In-House,Turner Sports/Hbo Infrastructure,Atlanta + Streamer Hubs
 Amazon Prime Video (Kraken),Usa (Regional - Seattle),Seattle Kraken Regional Games,Amazon / Seattle Kraken,2023Present,Streaming,NHL,"~$1,020",,In-House,Amazon + Local Ota (Tegna),"Produced By Amazon; Ota From Kong-Tv, King, Kgw, Krem"
 Sportsnet+,Canada,Live National And Out-Of-Market Nhl Games,Rogers Communications,20142038,Streaming,NHL,"~$2,545",Included in Rogers' $3.9B deal,In-House,Sportsnet,Canadian Digital/Rsn + Venues
@@ -252,7 +252,7 @@ TSN,Caribbean,"Playoffs, Stanley Cup Final (Partial Carriage)",Bell Media,2021
 CBS Sports,USA,Weekend Coverage Of 20+ Events Per Season,Paramount Global,20212030,Broadcast,PGA,"$50,000$150,000 (CBS primetime golf)",$350 million/year,In-House,Cbs Sports,New York Studios (Broadcast Center) + On-Site
 "NBC Sports (Incl. Usa Network, Golf Channel)",USA,Weekend Coverage Of 10 Events + Early Rounds & Encores,NBCuniversal (Comcast),20212030,Broadcast,PGA,"$60,000$175,000 (NBC Golf on weekends)",$300 million/year,In-House,Nbc Sports / Golf Channel,"Stamford, Ct Hq + On-Site Pebble Beach And Pga Venues"
 Golf Channel,USA,"Coverage Of Early Rounds, Non-Terrestrial Weekend Windows, Primetime Encores",NBCuniversal (Comcast),20212030,Broadcast,PGA,"$25,000$75,000 (Golf Channel windows)",Included in NBCUniversal deal,In-House,Golf Channel (Nbcu),"Stamford, Ct + On-Site Events"
-ESPN+ / Pga Tour Live,USA,"4,300+ Hrs Live Streaming Of 35 Tournaments, Featured Holes/Groups",The Walt Disney Company,20202029,Streaming,PGA,"~$2,545",,In-House,Espn & Pga Tour Studios,"Bristol, Ct & Ponte Vedra Beach Studio/Hub + On-Site Trucks"
+ESPN+ / Pga Tour Live,USA,"4,300+ Hrs Live Streaming Of 35 Tournaments, Featured Holes/Groups",Disney,20202029,Streaming,PGA,"~$2,545",,In-House,Espn & Pga Tour Studios,"Bristol, Ct & Ponte Vedra Beach Studio/Hub + On-Site Trucks"
 Peacock,USA,Simulcasts Of Nbc Broadcast Coverage,NBCuniversal (Comcast),ongoing,Streaming,PGA,Streaming simulcast  bundled with NBC rights,Included in NBCUniversal deal,In-House,Nbc Sports Via Golf Channel Feeds Accessory,"Stamford, Ct + On-Site"
 TSN+ / TSN / Ctv2 (Canada),Canada,"Live Pga Coverage, World Feed, Featured Holes/Groups, Analysis",Bell Media,extended 2025 multi-year,Streaming & Broadcast,PGA,"$15,000$50,000",,In-House,Tsn (Bell Media),Toronto Studios + On-Site
 Paramount+,USA,Digital Streaming Of Cbs Pga Content,Paramount Global,20212030,Streaming,PGA,"~$2,035",Included in CBS/Paramount deal,In-House,Cbs Sports For Streaming Pga Content,New York + On-Site
@@ -277,7 +277,7 @@ One World Sports (Historical),USA,Yomiuri Giants Games English Broadcast (Histor
 Fom World Feed,Global,Host Broadcast (World Feed),Formula One Group,2023Present,International,Formula 1,,,In-House,Formula One Management (Fom),"Biggin Hill, Uk :Contentreference[Oaicite:1]{Index=1}"
 Sky Sports F1,Uk & Ireland,"Live, Qualifying, Practice",Sky Group (Comcast),20232029,Broadcast,Formula 1,"$250,000$475,000",$1.45 billion,Outsourced,Sky Sports (Via Remote Ob Pods),"Osterley, Uk; Milan, Italy :Contentreference[Oaicite:2]{Index=2}"
 Channel 4,Uk,Race Highlights,Channel 4,20232026,Syndication,Formula 1,,,Outsourced,Whisper/Premier (Highlights Only),Biggin Hill Feed Edited In Uk Studios
-ESPN,USA,Live Races,The Walt Disney Company,20182025,Broadcast,Formula 1,"$125,000$350,000",$90 million (20192025),Outsourced,Espn Overlay Of World Feed,"Bristol, Ct :Contentreference[Oaicite:3]{Index=3}"
+ESPN,USA,Live Races,Disney,20182025,Broadcast,Formula 1,"$125,000$350,000",$90 million (20192025),Outsourced,Espn Overlay Of World Feed,"Bristol, Ct :Contentreference[Oaicite:3]{Index=3}"
 NBC / Peacock (Bid),USA,Future Coverage,Comcast,TBD,Streaming,Formula 1,TBD (NBC has submitted bid),,Outsourced,Nbc Overlay Of World Feed,"Stamford, Ct (Anticipated)"
 Apple Tv+ (Bidder),USA,Future Coverage,Apple Inc.,TBD,Streaming,Formula 1,TBD (Apple bid in progress),,Outsourced,Apple Overlay (Anticipated),Biggin Hill
 DAZN,Japan,Live Races,DAZN Group,20232025,Streaming,Formula 1,"~$2,540",,Outsourced,Dazn Overlay Of World Feed,Biggin Hill
@@ -311,7 +311,7 @@ Iqiyi,China,Wwe Weekly Shows & Events,Iqiyi,Ongoing,Streaming,WWE,"~$1,025",,In-
 Abema,Japan,"Raw, Smackdown",Abema Tv,Ongoing,Streaming,WWE,"~$1,020",,In-House,Wwe,Japan; On-Site Venues
 Dmax,Italy,"Raw, Smackdown",Discovery Italia (WBD),Ongoing,Broadcast,WWE,"$10,000$25,000",,In-House,Wwe,Italy; On-Site Venues
 Tap Sports,Philippines,Wwe Weekly Shows & Ppvs,Tap Digital Media Ventures,Ongoing,Broadcast,WWE,"$5,000-$45,000",,In-House,Tap Digital Media Ventures,"Mandaluyong, Metro Manila; On-Site Venues"
-ESPN / ESPN+,USA,"Ufc Fight Nights, Ppvs, Contender Series",The Walt Disney Company,20192025,Broadcast & Streaming,UFC,"$70,000$150,000 (ESPN+ UFC Fight Nights)","$1.5 billion (7-year ESPN deal, 20192025)",In House,Ufc Productions,Ufc Apex (Las Vegas) + On-Site Arenas
+ESPN / ESPN+,USA,"Ufc Fight Nights, Ppvs, Contender Series",Disney,20192025,Broadcast & Streaming,UFC,"$70,000$150,000 (ESPN+ UFC Fight Nights)","$1.5 billion (7-year ESPN deal, 20192025)",In House,Ufc Productions,Ufc Apex (Las Vegas) + On-Site Arenas
 Ufc Fight Pass,Global (Dtc),"Live Fights, Archive, Original Series",Tko Group Holdings (Endeavor/Wwe Merger),2013Present,Streaming,UFC,"~$1,530",,In House,Ufc Productions,Ufc Apex (Las Vegas) + Global Venues
 Bt Sport (Now TNT Sports Uk),Uk & Ireland,"Live Ufc Events (Fight Nights, Ppvs)",Turner (Warner Bros. Discovery),20132018,Broadcast,UFC,"$20,000$60,000",,Mixed,Ufc Productions + Tnt Sports,Ufc World Feed + TNT Studios (London)
 DAZN,Japan,Live Ufc Events,DAZN Group,Various,Broadcast/Streaming,UFC,"~$1,530",,Mixed,Ufc Productions + Dazn Studios,Ufc World Feed + DAZN Madrid/Tokyo Hubs
@@ -343,3 +343,4 @@ Fpt Play,Vietnam,,Fpt Telecom,ongoing,Streaming,Euroleague,~$515,,,,
 Tvri,Indonesia,,Indonesian Public Broadcasting,ongoing,Linear,Euroleague,,,,,
 "Eurosport Covers Ireland, Uk Via DAZN Sublicence",Fandom List Indicates Dazn Eurosport Coverage In Ireland & Uk,,Turner (Warner Bros. Discovery),ongoing,Streaming/Linear,Euroleague,"~$1,530",,,,
 Sport Tv / Sporttv,"Portugal, Slovenia (Also Serbia, Croatia Region)",,Sporta Serviços De Televisão,ongoing,Linear,Euroleague,"$2,000$5,000",,,,
+
