@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rights Relationship Graph</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 4px;
+            font: 14px sans-serif;
+            display: flex;
+            gap: 15px;
+        }
+
+        .filter-label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: bold;
+        }
+
+        .filter-label span {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .filter-label select {
+            margin-left: 4px;
+            padding: 2px;
+        }
+
+        #zoom-control {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 4px;
+            font: 14px sans-serif;
+        }
+
+        #zoom-slider {
+            width: 100px;
+            transform: rotate(-90deg);
+        }
+
+        #chart {
+            width: 100%;
+            height: 100%;
+        }
+
+        .link {
+            stroke: #555;
+            stroke-opacity: 0.6;
+            stroke-width: 1.5px;
+        }
+
+        .nodes circle {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .nodes text {
+            font: 10px sans-serif;
+            pointer-events: none;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 6px;
+            border-radius: 4px;
+            font: 12px sans-serif;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            max-width: 200px;
+            z-index: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="controls">
+        <label class="filter-label"><span style="background:#1f77b4"></span>League<select id="filter-league"
+                class="filter">
+                <option value="All">All</option>
+            </select></label>
+        <label class="filter-label"><span style="background:#ff7f0e"></span>Rights<select id="filter-right"
+                class="filter">
+                <option value="All">All</option>
+            </select></label>
+        <label class="filter-label"><span style="background:#9467bd"></span>Region<select id="filter-region"
+                class="filter">
+                <option value="All">All</option>
+            </select></label>
+        <label class="filter-label"><span style="background:#2ca02c"></span>Parent Company<select id="filter-parent"
+                class="filter">
+                <option value="All">All</option>
+            </select></label>
+        <label class="filter-label"><span style="background:#d62728"></span>Company<select id="filter-company"
+                class="filter">
+                <option value="All">All</option>
+            </select></label>
+    </div>
+    <div id="zoom-control">
+        <label>Zoom<input type="range" id="zoom-slider" min="1" max="4" step="0.1" value="1"></label>
+    </div>
+    <div id="chart"></div>
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        const leagueIcons = {};
+        const iconSize = 40;
+        const svg = d3.select('#chart').append('svg').attr('width', '100%').attr('height', '100%');
+        const graph = svg.append('g').attr('class', 'graph');
+        const tooltip = d3.select('#tooltip');
+        let allData = [], width = 0, height = 0;
+        let selectedNode = null;
+
+        function updateDimensions() {
+            const rect = document.getElementById('chart').getBoundingClientRect();
+            width = rect.width; height = rect.height;
+        }
+        window.addEventListener('resize', () => drawChart());
+
+        function populateFilters() {
+            const mappings = [
+                { id: 'filter-league', key: 'League' },
+                { id: 'filter-right', key: 'Rights' },
+                { id: 'filter-region', key: 'Region' },
+                { id: 'filter-parent', key: 'Parent Company' },
+                { id: 'filter-company', key: 'Company' }
+            ];
+            mappings.forEach(({ id, key }) => {
+                const select = d3.select('#' + id);
+                const values = Array.from(new Set(allData.map(d => d[key]))).sort();
+                values.forEach(v => select.append('option').attr('value', v).text(v));
+            });
+        }
+
+        function attachListeners() {
+            d3.selectAll('.filter').on('change', () => drawChart());
+            d3.select('#zoom-slider').on('input', function () {
+                const scale = +this.value;
+                svg.transition().duration(200).call(zoomBehavior.scaleTo, scale);
+            });
+            svg.on('click', () => {
+                selectedNode = null;
+                // Additional logic for clearing highlights can be added here
+            });
+        }
+
+        const zoomBehavior = d3.zoom()
+            .scaleExtent([1, 4])
+            .on('zoom', ({ transform }) => {
+                graph.attr('transform', transform);
+                applyVisibility(transform.k);
+            });
+        svg.call(zoomBehavior);
+
+        function applyVisibility(k) {
+            graph.selectAll('.nodes g').each(function (d) {
+                const hide = (d.type === 'company' && k > 1.5)
+                    || (d.type === 'parent' && k > 2.5)
+                    || (d.type === 'region' && k > 3)
+                    || (d.type === 'right' && k > 3.5);
+                d3.select(this).style('display', hide ? 'none' : 'inline');
+            });
+            graph.selectAll('.link').each(function (d) {
+                const visS = isVisible(d.source, k), visT = isVisible(d.target, k);
+                d3.select(this).style('display', (visS && visT) ? 'inline' : 'none');
+            });
+        }
+
+        function isVisible(node, k) {
+            const thresholds = { league: 4, right: 3.5, region: 3, parent: 2.5, company: 1.5 };
+            return k <= (thresholds[node.type] || 4);
+        }
+
+        d3.csv('rights.csv', d => {
+            const clean = {};
+            Object.entries(d).forEach(([k, v]) => { clean[k.trim()] = v; });
+            return clean;
+        }).then(data => {
+            allData = data;
+            populateFilters(); attachListeners(); drawChart();
+        }).catch(err => {
+            console.error('CSV load error:', err);
+            d3.select('#chart').append('p').text('Failed to load data.');
+        });
+
+        function updateHighlight() {
+            const connectedNodes = new Set();
+            if (selectedNode) {
+                connectedNodes.add(selectedNode.id);
+                graph.selectAll('.link').each(d => {
+                    if (d.source.id === selectedNode.id) connectedNodes.add(d.target.id);
+                    if (d.target.id === selectedNode.id) connectedNodes.add(d.source.id);
+                });
+            }
+
+            graph.selectAll('.link').style('opacity', d => connectedNodes.has(d.source.id) && connectedNodes.has(d.target.id) ? 1 : 0.1);
+            graph.selectAll('.nodes g').style('opacity', d => connectedNodes.has(d.id) ? 1 : 0.1);
+        }
+
+        function drawChart() {
+            updateDimensions(); svg.selectAll('*').remove(); svg.append(() => graph.node());
+            const fl = d3.select('#filter-league').property('value');
+            const fr = d3.select('#filter-right').property('value');
+            const rg = d3.select('#filter-region').property('value');
+            const fp = d3.select('#filter-parent').property('value');
+            const fc = d3.select('#filter-company').property('value');
+
+            const filtered = allData.filter(d =>
+                (fl === 'All' || d.League === fl)
+                && (fr === 'All' || d.Rights === fr)
+                && (rg === 'All' || d.Region === rg)
+                && (fp === 'All' || d['Parent Company'] === fp)
+                && (fc === 'All' || d.Company === fc)
+            );
+
+            const nodesMap = new Map(), links = [];
+            filtered.forEach(d => {
+                const ids = {
+                    league: `league-${d.League}`,
+                    right: `right-${d.Rights}`,
+                    region: `region-${d.Region}`,
+                    parent: `parent-${d['Parent Company']}`,
+                    company: `company-${d.Company}`
+                };
+                const names = { league: d.League, right: d.Rights, region: d.Region, parent: d['Parent Company'], company: d.Company };
+                Object.entries(ids).forEach(([t, id]) => {
+                    if (!nodesMap.has(id)) nodesMap.set(id, { id, name: names[t], type: t, contents: d.Contents });
+                });
+                links.push({ source: ids.league, target: ids.right });
+                links.push({ source: ids.right, target: ids.region });
+                links.push({ source: ids.region, target: ids.parent });
+                links.push({ source: ids.parent, target: ids.company });
+            });
+
+            const nodes = Array.from(nodesMap.values());
+            const degreeMap = new Map(nodes.map(n => [n.id, 0]));
+            links.forEach(l => {
+                degreeMap.set(l.source, degreeMap.get(l.source) + 1);
+                degreeMap.set(l.target, degreeMap.get(l.target) + 1);
+            });
+            nodes.forEach(n => n.degree = degreeMap.get(n.id));
+            const sizeScale = d3.scaleSqrt().domain(d3.extent(nodes, d => d.degree)).range([8, 24]);
+
+            const simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links).id(d => d.id).distance(100))
+                .force('charge', d3.forceManyBody().strength(-300))
+                .force('center', d3.forceCenter(width / 2, height / 2));
+
+            graph.selectAll('.link').data(links).enter().append('line').attr('class', 'link');
+
+            const nodeSel = graph.append('g').attr('class', 'nodes')
+                .selectAll('g').data(nodes).enter().append('g')
+                .call(d3.drag().on('start', dragstarted).on('drag', dragged).on('end', dragended));
+
+            nodeSel.filter(d => d.type === 'league')
+                .append('image')
+                .attr('xlink:href', d => `icons/${d.name}.png`)
+                .attr('x', -iconSize / 2)
+                .attr('y', -iconSize / 2)
+                .attr('width', iconSize)
+
+                .attr('height', iconSize);
+
+            nodeSel.filter(d => d.type !== 'league')
+                .append('circle')
+                .attr('r', d => sizeScale(d.degree))
+                .attr('fill', d => {
+                    switch (d.type) {
+                        case 'right': return '#ff7f0e';
+                        case 'region': return '#9467bd';
+                        case 'parent': return '#2ca02c';
+                        case 'company': return '#d62728';
+                    }
+                })
+                .on('click', (event, d) => {
+                    selectedNode = d;
+                    updateHighlight();
+                });
+
+            nodeSel.append('text').attr('dx', d => (d.type === 'league' ? 0 : sizeScale(d.degree) + 6)).attr('dy', '.35em').text(d => d.name);
+
+            nodeSel.filter(d => d.type === 'company')
+                .on('mouseover', (event, d) => {
+                    tooltip.html(d.contents || '')
+                        .style('left', event.pageX + 10 + 'px')
+                        .style('top', event.pageY + 10 + 'px')
+                        .style('opacity', 1);
+                })
+                .on('mousemove', event => {
+                    tooltip.style('left', event.pageX + 10 + 'px').style('top', event.pageY + 10 + 'px');
+                })
+                .on('mouseout', () => {
+                    tooltip.style('opacity', 0);
+                });
+
+            simulation.on('tick', () => {
+                graph.selectAll('.link')
+                    .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+                nodeSel.attr('transform', d => `translate(${d.x},${d.y})`);
+            });
+
+            function dragstarted(event, d) { if (!event.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; }
+            function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
+            function dragended(event, d) { if (!event.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }
+
+            applyVisibility(1);
+            d3.select('#zoom-slider').property('value', 1);
+        }
+    </script>
+</body>
+
+</html>

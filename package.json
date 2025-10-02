@@ -1,0 +1,14 @@
+{
+  "name": "@ilogre/force-directed-graph",
+  "main": "5d533954f4ea4bd6@475.js",
+  "version": "475.0.0",
+  "homepage": "https://observablehq.com/@ilogre/force-directed-graph",
+  "author": {
+    "name": "ilogre",
+    "url": "https://observablehq.com/@ilogre"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
